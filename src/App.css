@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.wrapper {
+	width: 320px;
+	height: 320px;
+	display: grid;
+	margin-top: 20px;
+}
+
+.hoveredWrapper {
+	height: 200px;
+	overflow-y: auto;
+}
+
+.hoveredField {
+	border-radius: 8px;
+	margin: 10px 0;
+  border: 1px solid white;
+	padding: 0.4em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+}

@@ -3,7 +3,7 @@ import {Mode} from "../types/types";
 import {Field} from "./Field";
 
 interface FieldsWrapperProps {
-		selectedMode: Mode
+		selectedMode: Mode;
 }
 
 export const FieldsWrapper: FC<FieldsWrapperProps> = ({ selectedMode }) => {
